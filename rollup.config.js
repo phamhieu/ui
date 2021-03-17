@@ -88,11 +88,9 @@ export default {
         require('tailwindcss'),
         require('autoprefixer'),
       ],
-      // modules: true,
       minimize: true,
-      sourceMap: false,
-      // extract: false,
-      minimize: true,
+      inject: false,
+      extract: true,
       modules: {
         // see generateScopedName options here
         // https://github.com/css-modules/postcss-modules
